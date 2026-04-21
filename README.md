@@ -11,7 +11,7 @@ Built by **Regan Macharia**, Grade 10 student at Nkubu High School, Kenya.
 - Install as an app (PWA)
 
 ## Live Demo
-[consistency-pulse.vercel.app](https://machariareagan-droid.github.io/consistency-pulse/)
+[consistency-pulse](https://machariareagan-droid.github.io/Consistency-pulse-/)
 
 ## Tech Stack
 HTML, CSS, JavaScript (vanilla), Service Worker, LocalStorage
