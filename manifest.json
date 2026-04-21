@@ -1,0 +1,66 @@
+{
+  "name": "ConsistencyPulse",
+  "short_name": "Pulse",
+  "description": "Build habits that stick. Track streaks, earn badges, and stay consistent daily.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#7c3aed",
+  "background_color": "#0f172a",
+  "categories": ["productivity", "health", "education"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1827/1827341.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1827/1827341.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1827/1827341.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1080x1920/7c3aed/ffffff?text=ConsistencyPulse+Home",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home screen of ConsistencyPulse"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Habit",
+      "short_name": "Add",
+      "description": "Quickly add a new habit",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "https://cdn-icons-png.flaticon.com/512/1827/1827341.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Streaks",
+      "short_name": "Streaks",
+      "description": "Check your current streaks",
+      "url": "/?action=streaks"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "e58c174a-81d2-5c3c-86cc-4f8b6a8c34d1",
+  "lang": "en-GB",
+  "dir": "ltr"
+}
