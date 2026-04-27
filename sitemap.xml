@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main App Page -->
+  <url>
+    <loc>https://machariareagan-droid.github.io/Consistency-pulse-/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- PWA Manifest -->
+  <url>
+    <loc>https://machariareagan-droid.github.io/Consistency-pulse-/manifest.json</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Service Worker -->
+  <url>
+    <loc>https://machariareagan-droid.github.io/Consistency-pulse-/sw.js</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Feedback Page -->
+  <url>
+    <loc>https://docs.google.com/forms/d/e/1FAIpQLSelAKwUZdpm4V3CLLZ-ZSTWuh8SKG-rRbgZepuSnjZRWg89oQ/viewform</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
