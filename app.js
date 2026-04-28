@@ -342,6 +342,41 @@ function loadFromStorage() {
     };
   });
 }
+// ===== BURNING FLAME ANIMATION =====
+function animateBurningFlame() {
+  var flame = document.getElementById('burningFlame');
+  if (!flame) return;
+  
+  var fireEmojis = ['🔥', '🔥', '🔥', '🔥', '🔥', '💥', '✨', '🔥', '🔥', '🔥', '🌟', '🔥', '🔥'];
+  var index = 0;
+  
+  setInterval(function() {
+    // Cycle through emojis for a flickering effect
+    flame.textContent = fireEmojis[index];
+    index = (index + 1) % fireEmojis.length;
+    
+    // Random scale for flicker
+    var scale = 0.8 + Math.random() * 0.6;
+    var rotate = -10 + Math.random() * 20;
+    var glowIntensity = 8 + Math.random() * 20;
+    
+    flame.style.transform = 'scale(' + scale + ') rotate(' + rotate + 'deg)';
+    flame.style.filter = 'drop-shadow(0 0 ' + glowIntensity + 'px rgba(245, 158, 11, 0.9)) drop-shadow(0 0 ' + (glowIntensity * 2) + 'px rgba(255, 100, 0, 0.6))';
+  }, 150);
+  
+  // More dramatic flame burst every 3 seconds
+  setInterval(function() {
+    flame.style.transform = 'scale(1.4) rotate(15deg)';
+    flame.style.filter = 'drop-shadow(0 0 30px rgba(255, 200, 0, 1)) drop-shadow(0 0 60px rgba(255, 100, 0, 0.9))';
+    setTimeout(function() {
+      flame.style.transform = 'scale(1) rotate(0deg)';
+      flame.style.filter = 'drop-shadow(0 0 12px rgba(245, 158, 11, 0.8))';
+    }, 200);
+  }, 3000);
+}
+
+// Call this in your init() function
+// animateBurningFlame();
 
 function initializeDefaultHabits() {
   state.habits = [
